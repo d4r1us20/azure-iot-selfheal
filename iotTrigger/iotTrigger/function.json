@@ -5,9 +5,9 @@
       "type": "eventHubTrigger",
       "name": "event",
       "direction": "in",
-      "eventHubName": "<your-event-hub-name>",
+      "eventHubName": "iothub-ehub-wsn-61215842-bf85c1755c",
       "connection": "eventHubConnectionAppSetting",
-      "cardinality": "many",
+      "cardinality": "one",
       "consumerGroup": "$Default"
     }
   ]
